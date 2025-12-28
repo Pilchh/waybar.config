@@ -10,11 +10,11 @@
 
 window#waybar {
     background: @bar-bg;
-	opacity: 0.9;
+	opacity: 0.8;
 }
 
 tooltip {
-    background: #141415;
+    background: #121212;
     color: @main-fg;
     border-radius: 8px;
     border-width: 0px;
@@ -30,6 +30,7 @@ tooltip {
     margin-left: 0px;
     padding-left: 4px;
     padding-right: 4px;
+    padding-bottom: 2px;
     margin-right: 4px;
     animation: ws_normal 20s ease-in-out 1;
 }
@@ -40,7 +41,7 @@ tooltip {
 
 #workspaces button.active {
     /* background: #2B2F38; */
-    color: #875acb;
+    color: #93c572;
     /* margin-left: 1px; 
     padding-left: 4px;
     padding-right: 8px;
@@ -69,12 +70,12 @@ tooltip {
 /*     color: #c48282; */
 /* } */
 
-#workspaces button:hover {
-    /* background: @wb-hvr-bg; */
-    color: #D5A5AA;
-    animation: ws_hover 20s ease-in-out 1;
-    transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
-}
+/* #workspaces button:hover { */
+/*     background: @wb-hvr-bg; */
+/*     color: #D5A5AA; */
+/*     animation: ws_hover 20s ease-in-out 1; */
+/*     transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682); */
+/* } */
 
 #taskbar button {
     box-shadow: none;
@@ -156,9 +157,7 @@ tooltip {
     color: @main-fg;
     background: @main-bg;
     opacity: 1;
-    margin: 6px 0px 6px 0px;
-    padding-left: 4px;
-    padding-right: 4px;
+    margin: 2px 0px 2px 0px;
     
 }
 
@@ -178,7 +177,7 @@ tooltip {
 #blueooth,
 #pulseaudio,
 #cpu{
-    color: #aeaed1;
+    color: #93c572;
 }
 
 #battery {
